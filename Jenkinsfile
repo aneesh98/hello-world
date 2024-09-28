@@ -2,12 +2,6 @@ pipeline {
     agent any
 
     stages {
-        stage('Clone Repository') {
-            steps {
-                // Cloning the repository
-                git 'https://github.com/aneesh98/hello-world.git'
-            }
-        }
 
         stage('Build') {
             steps {
